@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: {enabled: true},
   modules: ['@nuxt/image'],
   image: {
+    provider: 'ipx',
     domains: ['images.unsplash.com'],
     alias: {
       unsplash: 'https://images.unsplash.com',
